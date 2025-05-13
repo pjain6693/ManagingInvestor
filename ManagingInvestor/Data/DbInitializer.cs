@@ -6,65 +6,6 @@ namespace ManagingInvestor.Data
     {
         public static void Seed(InvestorDbContext context)
         {
-            //    if (context.Investors.Any()) return;
-
-            //    var funds = new[]
-            //    {
-            //    new Fund { Name = "Mauris LLP" },
-            //    new Fund { Name = "Nullam Velit Fund" },
-            //    new Fund { Name = "Ligula Aenean Fund" },
-            //    new Fund { Name = "Mauris Sit Amet Fund" },
-            //    new Fund { Name = "Ullamcorper Viverra Fund" }
-            //};
-
-            //    context.Funds.AddRange(funds);
-            //    context.SaveChanges();
-
-            //    var investors = new[]
-            //    {
-            //    new Investor {
-            //        Name = "Keely Newman",
-            //        Phone = "1-786-738-4711",
-            //        Email = "in.magna@yahoo.com",
-            //        Country = "USA",
-            //        InvestorFunds = new List<InvestorFund> {
-            //            new() { Fund = funds[0] },
-            //            new() { Fund = funds[1] }
-            //        }
-            //    },
-            //    new Investor {
-            //        Name = "Kimberly Maldonado",
-            //        Phone = "(684) 842-2371",
-            //        Email = "non.lacinia@outlook.org",
-            //        Country = "Spain",
-            //        InvestorFunds = new List<InvestorFund> {
-            //            new() { Fund = funds[1] }
-            //        }
-            //    },
-            //    new Investor {
-            //        Name = "Sean Massey",
-            //        Phone = "(548) 250-4693",
-            //        Email = "pharetra.quisque.ac@outlook.edu",
-            //        Country = "Ireland",
-            //        InvestorFunds = new List<InvestorFund> {
-            //            new() { Fund = funds[0] },
-            //            new() { Fund = funds[2] },
-            //            new() { Fund = funds[3] }
-            //        }
-            //    },
-            //    new Investor {
-            //        Name = "Nyssa Barr",
-            //        Phone = "(673) 581-3597",
-            //        Email = "odio@aol.couk",
-            //        Country = "Canada",
-            //        InvestorFunds = new List<InvestorFund> {
-            //            new() { Fund = funds[4] }
-            //        }
-            //    }
-            //};
-
-            //    context.Investors.AddRange(investors);
-            //    context.SaveChanges();
    
             var fund1 = new Fund { Id = 1, Name = "Mauris LLP" };
             var fund2 = new Fund { Id = 2, Name = "Nullam Velit Fund" };
