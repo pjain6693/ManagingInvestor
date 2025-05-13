@@ -80,10 +80,10 @@ POST /api/investors
 
 ```json
 {
-  "name": "Pooja Smith",
+  "name": "Pooja Jain",
   "phone": "(684) 842-2371",
-  "email": "non.lacinia@outlook.org",
-  "country": "Spain",
+  "email": "non.xyz@outlook.org",
+  "country": "India",
   "investorFunds": [
     {
       "fund": {
